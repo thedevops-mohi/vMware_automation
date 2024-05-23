@@ -1,0 +1,5 @@
+Name,Folder,Num_CPU,RAM
+Power-CLI-1,K8s Cluster,2,2
+Power-CLI-2,K8s Cluster,2,2
+Power-CLI-3,K8s Cluster,2,2
+Power-CLI-4,K8s Cluster,1,4

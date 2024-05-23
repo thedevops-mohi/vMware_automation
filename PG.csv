@@ -1,0 +1,4 @@
+﻿VDSwitch,Name,Notes,NumPorts,PortBinding,Vlan
+ DSwitch,Power-CLI-1,Just a test,32,Static,52
+ DSwitch,Power-CLI-2,Just a test,32,Static,53
+ DSwitch,Power-CLI-3,Just a test,32,Static,54
