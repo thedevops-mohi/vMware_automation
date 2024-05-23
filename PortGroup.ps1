@@ -1,6 +1,6 @@
-$vmhost = Connect-VIServer -Server vcsa.mdeey.com -Username "Administrator@vsphere.local"
+$vmhost = Connect-VIServer -Server server_FQDN_here.com -Username "Administrator@vsphere.local"
 
-$PGs = Import-Csv -Path "/Users/mohammed/Documents/PowerCLI/PG.csv" -Delimiter ',' -Encoding utf8
+$PGs = Import-Csv -Path "[Location of CSV file from where VM attributes will be retrieved]/PG.csv" -Delimiter ',' -Encoding utf8
 
 New-VM | Get-Member
 

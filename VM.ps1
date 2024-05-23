@@ -1,9 +1,9 @@
-$vmhost = Get-VMHost -Name "192.168.0.56"
-$network = "Management Network"
-$cluster = Get-Cluster -Name "LAB-CLUSTER"
-$datastore = Get-Datastore -Name "Lab-Datastore"
+$vmhost = Get-VMHost -Name "[ip address of vsphere server goes here]"
+$network = "[Port group to attach to VM]"
+$cluster = Get-Cluster -Name "Cluster name goes here"
+$datastore = Get-Datastore -Name "Datastore goes here"
 
-$VMs = Import-Csv -Path "/Users/mohammed/Documents/PowerCLI/VM.csv" -Delimiter ',' -Encoding utf8
+$VMs = Import-Csv -Path "[Location of CSV file from where VM attributes will be retrieved]/VM.csv" -Delimiter ',' -Encoding utf8
 
 foreach ($vm in $VMs) {
 
